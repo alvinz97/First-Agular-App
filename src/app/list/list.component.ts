@@ -8,7 +8,7 @@ import { HttpService } from './../http.service';
 })
 export class ListComponent implements OnInit {
 
-
+  // tslint:disable-next-line: ban-types
   brews: Object;
 
   // tslint:disable-next-line: variable-name

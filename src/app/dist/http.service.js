@@ -14,6 +14,7 @@ var HttpService = /** @class */ (function () {
     }
     // tslint:disable-next-line: typedef
     // tslint:disable-next-line: adjacent-overload-signatures
+    // tslint:disable-next-line: typedef
     HttpService.prototype.getBeer = function () {
         return this.http.get('https://api.openbrewerydb.org/breweries');
     };

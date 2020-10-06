@@ -10,6 +10,7 @@ export class HttpService {
 
   // tslint:disable-next-line: typedef
   // tslint:disable-next-line: adjacent-overload-signatures
+  // tslint:disable-next-line: typedef
   getBeer() {
     return this.http.get('https://api.openbrewerydb.org/breweries');
   }
