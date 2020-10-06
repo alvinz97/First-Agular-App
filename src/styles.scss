@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+$nav-hover: rgb(22, 31, 70);
+
+#navbar {
+    #navbarSupportedContent {
+        ul {
+            li {
+                a {
+                    &:hover {
+                        background: darken($nav-hover, 10%);
+                    }
+                }
+            }
+        }
+    }
+}
