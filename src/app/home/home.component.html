@@ -1,1 +1,37 @@
-<p>home works!</p>
+<div class="container mt-3" id="homeComponent">
+    <h2 class="text-center text-info">Welcome to my First Angular App</h2>
+
+    <hr class="divider">
+
+
+    <div class="custom-card">
+        <p>You have clicked <span (click)="countClick()"> this</span> {{ clickCounter}} times.</p> <br>
+        <p>You have reduse <span (click)="countClickLess()"> this</span> {{ clickCounter}} times.</p>
+    </div>
+
+    <div class="custom-card mt-4">
+        <div class="clearfix">
+            <div class="float-left">
+                <input type="text" class="form-control-sm" [(ngModel)]="name"> <br>
+
+                <strong>You said: </strong> {{ name }}
+            </div>
+
+            <div class="float-right">
+                <input type="text" class="form-control-sm" [(ngModel)]="search"> <br>
+
+                <strong>You searched: </strong> {{ search }}
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-card mt-4" [ngClass]="setClasess()">
+        <ng-template [ngIf]="clickCounter > 5" [ngIfElse]="none">
+            <p>Click counter is <strong>Greater than </strong> 4.</p>
+        </ng-template>
+
+        <ng-template #none>
+            <p>Click counter is <strong>Less than </strong> 5.</p>
+        </ng-template>
+    </div>
+</div>

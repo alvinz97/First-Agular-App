@@ -1,0 +1,24 @@
+#homeComponent .divider {
+  border-top: 2px solid #000;
+}
+
+#homeComponent span {
+  font-weight: bold;
+  background: lightgray;
+  padding: .3em .8em;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#homeComponent .active {
+  background-color: yellowgreen;
+  border: 5px solid red;
+}
+
+#homeComponent .deActive {
+  background-color: #c2c2c2;
+  border: none;
+}

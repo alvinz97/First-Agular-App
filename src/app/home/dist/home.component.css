@@ -1,0 +1,28 @@
+#homeComponent .divider {
+  border-top: 2px solid #000;
+}
+#homeComponent .custom-card {
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 30px 10px rgba(138, 185, 45, 0.2);
+}
+#homeComponent .custom-card input {
+  padding: 1em;
+  margin-bottom: 2em;
+}
+#homeComponent span {
+  font-weight: bold;
+  background: lightgray;
+  padding: 0.3em 0.8em;
+  cursor: pointer;
+  user-select: none;
+}
+#homeComponent .active {
+  background-color: yellowgreen;
+  border: 5px solid red;
+}
+#homeComponent .deActive {
+  background-color: #c2c2c2;
+  border: none;
+}

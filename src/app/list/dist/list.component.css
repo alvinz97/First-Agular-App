@@ -1,0 +1,9 @@
+#listComponent .divider {
+  border-top: 2px solid #000;
+}
+#listComponent .custom-card {
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 30px 10px rgba(138, 185, 45, 0.2);
+}
